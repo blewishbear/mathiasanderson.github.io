@@ -30,9 +30,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 	#header{
 		background-image:url("../../images/fulls/2.jpeg");
-		background-repeat: no-repeat;
-		background-position: center;
+		background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../images/fulls/2.jpeg');
 		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
 	}
 
 body {
@@ -1491,6 +1492,7 @@ input, select, textarea {
 	.image {
 		display: inline-block;
 		border: 0;
+		background-position: center;
 	}
 
 		.image img {
